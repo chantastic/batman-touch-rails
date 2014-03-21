@@ -1,9 +1,12 @@
 require "batman/touch/rails/version"
 
+require "jquery_mobile_rails"
+
 module Batman
   module Touch
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
